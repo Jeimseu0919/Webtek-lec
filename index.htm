@@ -3,7 +3,7 @@
    <head>
       <style>
 		body {
-			background: gray url('images/pic22.jpg');
+			background: gray url('images/white.jpg');
 			background-repeat: no-repeat;
 			background-position: center;
 			margin-right: 200px;
@@ -24,14 +24,44 @@
 				overflow-x: hidden;
 				padding-top: 40px;
 			}
+			ul {
+				list-style-type: none;
+				margin: 0;
+				padding: 0
+				width: 300px;
+				background-color: #f1f1f1;
+				border: 1px solid #555;
+
+			}
+			li a{
+				display: block;
+				color: #000
+				padding: 8px 16px;
+				text-decoration: none;
+			}
+			li{
+				text-align: center;
+				border-bottom: 1px solid #555;
+			}
+
+			li:last-child {
+				border-bottom: none;
+			} 
+			
+			li a.hover:not(.active){
+				background-color: #555;
+				color: white;
+			}
 			.sidenav a {
 				padding: 6px 8px 6px 16px;
 				text-decoration: none;
-				font-size: 22px;
-				color: #818181;
+				font-size: 18px;
+				color: #E59866 ;
 				display: block;
+				text-decoration: none;
 			}
 			.sidenav a:hover {
+				background-color: #555;
 				color: #ffff;
 			}
 			.main {
@@ -51,96 +81,218 @@
 				margin-left:auto;
 				margin-right:auto;
 				padding: 15px; }
+
+
+}
 			</style>
 			</head>
 			
 			<body>
 			
 		
-			<div class="sidenav">
+			<ul class="sidenav">
 			  <a href="#">------------------------</a>
 			  <a href="#">....SESSION 1....</a>
 			  <a href="#">------------------------</a>
-			  <a></a>
-			  <a href="#home">Home</a>
-			  <a></a>
-			  <a href="#whatisinternet">Internet?</a>
-			  <a></a>
-			  <a href="#internethistory">History of the Internet</a>
-			  <a></a>
-			  <a href="#www">World Wide Web</a>
-			  <a></a>
-			  <a href="#webhistory">History of the Web</a>
-			  <a></a>
-			  <a href="#compare">Compare Internet and Web</a>
-			  <a></a>
-			  <a href="#wwwa">WWW Architecture</a>
-			  <a></a>
-			  <a href="#webprinciples">Principles of Web Architecture</a>
-			  <a></a>
+			  
+			   <li><a href="#home">Home</a></li>
+			  
+			  <li><a href="#whatisinternet">Internet</a></li>
+			  
+			  <li><a href="#hiw">How its works</a></li>
+
+			  <li><a href="#internethistory">Evolution of Internet</a></li>
+			  
+			  <li><a href="#www">World Wide Web</a></li>
+			  
+				<li><font color="RED" size="4"><p>WWW ARCHITECTURE</p></font></li>
+			  	<li><a href="#Webs">Web Server</a></li>
+			 	<li><a href="#webc">Web Client</a></li>
+			 	<li><a href="#Resources">Resources</a></li>
+			 	<li><font color="RED" size="4">RESOURCES ARE RETRIEVED</p></font></li>
+			 	<li><a href="#Resources1">URL</a></li>
+			 	<li><a href="#wprotocol">Protocol</a></li>
+			 	<li><a href="#ddnsf">DNS</a></li>
+			  	<li><a href="#hit">How the web works using internet</a></li>
+			  
 			  <a href="#webprinciples">Reference</a>
 			  <a href="#">------------------------</a>
 			  <a href="#">....GROUP 7....</a>
 			  <a href="#">------------------------</a>
-			</div>
+			</ul>
 			
 				<div class="main">
+						
 							<div id="home">
-							<h2><font color="#D35400" size="10">Internet, World Wide Web, and WWW Architecture</font></h2>
+							<h2><center><font color="#FF0000" size="10">Session 1</font></center></h2>
+							<br>
+							<h3><center><font color="#FF0000" size="10">Internet, WWW and WWW Architecture </font></center></h3>
 							<hr style="width:200px">
-							<p><font color="white" size="5"></font></p></div>
+
+							<center><font color="#FF0000" size="10">Group 7</font></center>
+
+							<center><font color="#000000" size="10">Baybayan, James G.</font></center>
+							<center><font color="#000000" size="10">Dadag, Darryl Christian
+							</font></center>
+							<center><font color="#000000" size="10">Palpallatoc, Windee</font></center>
+							<center><font color="#000000" size="10">Borje, Audrey</font</center>
+							<center><font color="#000000" size="10">Galising, Odessa</font></center>
+							<center><font color="#000000" size="10">Perez, Jansen Shekinah</font></center>
+
+							<p><font color="#000000" size="5"></font></p></div>
 							
 
 							<div id="whatisinternet">
-							<h2><font color="#D35400" size="10">What is Internet?</font></h2>
+							<h2><font color="#FF0000" size="10">What is Internet?</font></h2>
 							<hr style="width:200px">
-							<p><font color="white" size="5">Internet means going online. It is a popular computer networks and is made up of an
-								incredibly large number if independent operated networks and the system is fully distributed. </font></p></div>
+
+							<p><font color="#000000" size="5">1. The internet is the way computers connect to any other computers around the world via routers and servers in order to share information.</font></p>
+
+							<p><font color="#000000" size="5">2. Internet is made up of an incredibly large number of independent operated networks and the system is fully distributed.</font></p>
+
+							<p><font color="#000000" size="5">3. Network: two or more computer devices connected to each other. 
+							</font></p>
+
+
+							<p><font color="#000000" size="5">4.The internet ships binary informations, that the informations is made out of bits. A bit can described as any pair of opposite. 
+							</font></p>
+
+							<p><font color="#000000" size="5">5.Internet traffic is divided into parcels of data. 
+							</font></p>
+							</div>
+
+							<div id="hiw">
+							<h2><font color="#FF0000" size="10">How Internet works</font></h2>
+							<hr style="width:200px">
+							<h2><font color="#000000" size="8">I. Protocol</font></h2>
+
+							<p><font color="#000000" size="8">IP Address (Internet Protocol Address) 
+							</p>
+							<p><font color="#000000" size="8">TCP (Transmission Control Protocol)</p>
+							<p><font color="#000000" size="8">SMTP ( Simple Mail Transfer Protocol) </p>
+							<p><font color="#000000" size="8">FTP (File Transfer Protocol)</p>
+							</div>
+
+
+							<div id="hardware">
+							<h2><font color="#FF0000" size="10">How Internet works</font></h2>
+							<hr style="width:200px">
+							<h2><font color="#000000" size="8">II. Hardware</font></h2>
+
+							<p><font color="#000000" size="8">Convert packets to network signals and back.</p>
+							<p><font color="#000000" size="6"><U>Example: </p></U>
+								<p><font color="#000000" size="8">1. Ethernet network card </p>
+								<p><font color="#000000" size="8">2. Modem</p>
+							</div>
+
+							<div id="Difference">
+							<h2><font color="#FF0000" size="10">How Internet works</font></h2>
+							<hr style="width:200px">
+							<h2><font color="#000000" size="8">	III. Different types of internet connection</font></h2>
+
+							<p><font color="#000000" size="8">1. Wireless</p>
+							<p><font color="#000000" size="8">2. Cable</p>
+							<p><font color="#000000" size="8">3. Cellular</p>
+				
+							</div>
 							
 							<div id="internethistory">
-							<h2><font color="#D35400" size="10">History of the Internet</font></h2>
+							<h2><font color="#FF0000" size="10">Evolution of Internet </font></h2>
 							<hr style="width:200px">
-							<p><font color="white" size="5"><b>1966:</b> year they developed the ARPANET (advance research project agency network)</p>
-							<p><font color="white" size="5"><b>1969:</b>  the first message was sent from one computer to another over the Arpanet  </p>
+
+							<p><font color="#000000" size="6"><b>1964:Developed the ARPANET</p>
+							<p><font color="#000000" size="6"><b>1969:The first message was sent from one computer</p>
+							<p><font color="#000000" size="6"><b>1970: Vint Cerft invented a way to introduce computers across the globe to each other in a virtual space</p>
+							<p><font color="#000000" size="6"><b>1971: Ray Tomlinson was developing the first system to send mail back and forth between the users of ARPANET</p>
+							<p><font color="#000000" size="6"><b>1989: The internet then gives birth to the web. </p>
+							<p><font color="#000000" size="6"><b>1983: The TCP/IP became the standard way to communicate</p>
 							</div>
+
+							
 							
 							<div id="www">
-							<h2><font color="#D35400" size="10">World Wide Web (WWW)</font></h2>
+							<h2><font color="#FF0000" size="10">World Wide Web (WWW)</font></h2>
 							<hr style="width:200px">
-							<p><font color="white" size="5"><b>insert description here</p>
+
+							<p><font color="#000000" size="8"><b>1. web, WWW, or W3. </p>
+							<p><font color="#000000" size="8"><b>2. World Wide Web is NOT the Internet.</p>
+							<p><font color="#000000" size="8"><b>3. Tim-Berners Lee in 1989.</p>
+							<p><font color="#000000" size="8"><b>4. It consists of linked documents or pages of information </p>
+
 							</div>
 							
-							<div id="webhistory">
-							<h2><font color="#D35400" size="10">History of WWW</font></h2>
+							<div id="Webs">
+							<h2><font color="#FF0000" size="10">Web works</font></h2>
 							<hr style="width:200px">
-							<p><font color="white" size="5"><b>Year:</b> description here</p>
-							<p><font color="white" size="5"><b>Year:</b>description here</p>
+							<p><font color="#000000" size="6"><b>These are computers that store web pages, sites or apps. When a client device wants to access a webpage, a copy of the web page is downloaded from the server onto the client machine to be displayed in the users web browser.</b></font></p>
+
+							<CENTER><img width="80%" src="images/Apachelogo.png"></CENTER>
 							</div>
-							
-							<div id="compare">
-							<h2><font color="#D35400" size="10">Comparing Web to the Internet</font></h2>
+
+							<div id="webc">
+							<h2><font color="#FF0000" size="10">Web Client</font></h2>
 							<hr style="width:200px">
-							<p><font color="white" size="5">compare here</p>
+							<p><font color="#000000" size="5"><b>
+							These are the typical web users internet-connected devices (like a computer connected to a Wi-Fi or a phone connected to a mobile network) and a web accessing software available on those devices, usually a web browser like Google Chrome.
+							</b></font></p>
+
+							<p><font color="#000000" size="5">EXAMPLE: <b></b></font></p>
+							<p><font color="#000000" size="5">Browser <b></b></font></p>
+							<CENTER><img width="35%" src="images/Google.png"></CENTER>
 							</div>
-							
-							<div id="wwwa">
-							<h2><font color="#D35400" size="10">Three (3) Architectural Divisions in a Web</font></h2>
+
+							<div id="Resources">
+							<h2><font color="#FF0000" size="10">Resources</font></h2>
 							<hr style="width:200px">
-							<p><font color="white" size="5">Description here</p>
+							<p><font color="#000000" size="8">HTML <b></b></font></p>
+							<p><font color="#000000" size="8">CSS</b></font></p>
+							<p><font color="#000000" size="8">JavaScript</b></font></p>
 							</div>
-							
-							<div id="webprinciples">
-							<h2><font color="gray" size="10">Principles of Web Architecture</font></h2>
+
+							<div id="Resources1">
+							<h2><font color="#FF0000" size="10">Resources are retrieved</font></h2>
+							<center><h2><font color="#E59866" size="8">URL</font></h2></center>
 							<hr style="width:200px">
-							<p><font color="white" size="5"><b>Principle of Universality</b></p>
-							<p><font color="white" size="5"><b>Principle of Linking</b></p>
-							<p><font color="white" size="5"><b>Principle of Self-Description</b></p>
+							<h2><font color="#000000" size="5">URL (Uniform Resource Locator) </font></h2>
+							<h2><font color="#000000" size="5">Example:</font></h2>
+							<CENTER><img width="90%" src="images/url.png"></CENTER>
+
+							<font color="#000000" size="5">Protocol</font>
+							<font color="#000000" size="5"> - Tells server what type of file is being requested.</font>
 							</div>
-							
+
+							<div id="webhistory2">
+							<font color="#000000" size="5">RESOURCE NAME</font>
+							<p><font color="#000000" size="5"> Sub-domain - it allow servers to identify unique sitesor unique areas of content.</font></p>
+							<p><font color="#000000" size="5">Domain name - This is the name that the browser uses to check with the web server whether this site exists or not.</font></p>
+							<p><font color="#000000" size="5">Top-level domain - the name server that the browser will use to resolve the location of the requested site.</font></p>
+							<p><font color="#000000" size="5">FILE PATH: Since URL is a request for a specific file, it should also specify the path on the server to the file needed.
+							</font></p>
+
+
+							</div>
+							<div id="wprotocol">
+							<h2><font color="#FF0000" size="10">Protocol</font></h2>
+							<hr style="width:200px">
+							<p><font color="#000000" size="8"><b> HTTP (Hypertext Transfer Protocol)</p>
+								<p><font color="#000000" size="5"><b> It is a set of transferring files over the World Wide Web. A protocol that is connectionless text based. </p>
+								<CENTER><img width="60%" src="images/http.png"></CENTER>
+							</div>
+
+							<div id="ddnsf">
+							<h2><font color="#FF0000" size="10">Domain Name Server</font></h2>
+							<hr style="width:200px">
+							<p><font color="#000000" size="5"><b>Each devices connected to the internet has a unique IP address which other machines use to find the device, and DNS eliminates the need for humans to memorize IP address, but instead naming it for easier searching and conveniency.</p>
+							<CENTER><img width="100%" src="images/dns1.png"></CENTER>
+							</div>
+
+							<div id="hit">
+							<center><h2><font color="#FF0000" size="10">How the web works using internets</font></h2></center>
+							<hr style="width:200px">
+							<CENTER><img width="60%" src="images/1.png"></CENTER>
+							</div>
 						</div>
-			
 			</div>	
-		
 	</body>
 </html>
 					
